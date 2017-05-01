@@ -1,38 +1,21 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-            <title>System_control_client</title>
+<meta charset="utf-8" >
+            <title>Умный шкаф</title>
 <link rel="stylesheet" type="text/css" href="style.css" />
-<link rel="shortcut icon" href="1.ico" type="image/x-icon">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
 </head>
  
 <body>
- 
-            <div id="container">
-                        <div id="header">Шапка сайта
- 
-                        </div>
- 
-                        <div id="navigation">Блок навигации
- 
-                        </div>
- 
-                        <div id="menu">Меню
- 
-                        </div>
- 
-                        <div id="content">Контент
- 
-                        </div>
- 
-                        <div id="clear">
- 
-                        </div>
-                       
-                        <div id="footer">Подвал сайта
- 
-                        </div>
-            </div>
+<div id="mainmenu">
+<ul>
+<li><a href="#"> О нас </a></li>
+<li><a href="#"> Обратная связь </a></li>
+<li><a href="#"> Регистрация </a></li>
+<li><a href="#"> Вход </a></li>
+</ul>
+</div>
+            
  
 </body>
 </html>
