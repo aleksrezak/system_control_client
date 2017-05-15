@@ -8,11 +8,11 @@
 <body>
 <header>
 	<div id ="logo">
-	 <a href="/D:/SCK/index.php" title="Перейти на главную"> <span>У</span>мный <span>Ш</span>каф </a>
+	 <a href="D:/SCK/index.php" title="Перейти на главную"> <span>У</span>мный <span>Ш</span>каф </a>
 	</div>
 
 	<div id= "menuHead">
-		<a href="D:/SCK/about.php">
+		<a href="/about.php">
 			<div style="margin-right: 5%">О нас</div> 
 		</a>
 		<a href="feedback.php">
@@ -25,6 +25,7 @@
 		</a>
 	</div>
 </header>
+Умный шкаф - это удобный инфтерфейс , который упращает  работнику работоспасобность сайта упрвления с клиентами(считывателя)
 <footer>
 	<div id = "social">
 	</div>

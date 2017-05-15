@@ -8,7 +8,7 @@
 <body>
 <header>
 	<div id ="logo">
-	 <a href="/D:/SCK/index.php" title="Перейти на главную"> <span>У</span>мный <span>Ш</span>каф </a>
+	 <a href="D:/SCK/index.php" title="Перейти на главную"> <span>У</span>мный <span>Ш</span>каф </a>
 	</div>
 
 	<div id= "menuHead">
@@ -25,6 +25,17 @@
 		</a>
 	</div>
 </header>
+ 
+<div id= "wrapper">
+<div id= "leftCol">
+	<input type="text" placeholder="Имя" id="name" name="name">
+	 <input type="text" placeholder="Email" id="email" name="email">
+	  <input type="text" placeholder="Тема сообщения" id="subject" name="subject">
+	  <textarea name="message" id="message"></textarea>
+	   <input type="button" placeholder="done" id="done" name="send" value="Отправить">
+</div>
+</div>
+
 <footer>
 	<div id = "social">
 	</div>
