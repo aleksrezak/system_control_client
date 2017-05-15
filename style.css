@@ -1,43 +1,164 @@
-*, *::after, *::before {
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
--o-box-sizing: border-box;
--ms-box-sizing: border-box;
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
 }
-#mainmenu {
-background: #444;
-position: relative;
-overflow:hidden;
-height:40px;
-margin:30px 0
+
+html {height: 100 %}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	color: #333;
+	font-family: "Segoe UI", Arial,sans-serif;
+	font-size: 1em;
+	line-height: 135%;
 }
-#mainmenu ul {
-list-style:none;
-margin:0;
-padding:0;
-position: relative;
-left:50%;
-float:left;
-font:14px Arial, Helvetica, sans-serif;
-height:40px
+
+a {
+	color: #d38484;
+	text-decoration: none;
+	
 }
-#mainmenu ul li {
-position:relative;
-left:-50%;
-float:left;
-margin:0 10px;
-height:40px
+
+a:hover {
+	color: #efde30;
 }
-#mainmenu ul li a {
-color: #fff;
-display:block;
-text-decoration:none;
-padding:0 15px;
-line-height: 40px;
+
+a, a:hover {
+	-webkit-transition :all.6s ease;
+	-moz-transition:all.6s ease;
+	-o-transition:all.6s ease;
+	-ms-transition:all.6s ease;
+	transition:all.6s ease;
+
 }
-#mainmenu ul li a:hover {
-background-color:#666; 
+
+.clear {
+	clear: both;
+}
+
+/* Style for shapka*/
+
+header {
+	width: 98%;
+	float: left;
+	padding: 1%;
+	background: #fafafa;
+	border-bottom: 2px solid silver;
+
+}
+
+header #logo {
+	width: 40%;
+	float: left;
+	
+}
+
+header #logo a {
+	color: #939393;
+	font-size: 2em;
+	font-family: Times New Roman , sans-serif;
+}
+
+header #logo span {
+	color: #e36565
+}
+
+header #menuHead {
+	width: 24%;
+	float: left ;
+
+}
+
+header #menuHead div {
+	float: left;
+	padding: 5px;
+	background-color:#c8c8c8;
+	border-radius: 5px;
+	color: #ffffff;
+}
+
+
+header #menuHead div:hover {
+	background-color: #e7e7e7;
+
+}
+header #regAuth {
+	width: 30%;
+	float: left;
+	text-align: right;
+}
+
+#wrapper {
+	width: 80%;
+	margin-left: 10%;
+	float: left;
+	height: : 100px;
+}
+
+
+#wrapper #leftCol 
+{
+	width: 70%;
+	margin-right: 10%;
+	height: : 100px;
+	float: left;	
+}
+
+#wrapper #rightCol
+{
+	width: 60%;
+	margin-right: 10%;
+	height: : 100px;
+	float: left;
+}
+
+#wrapper #leftCol input {
+	width: 40%;
+	margin-left: 20%;
+	float: left;
+	border-radius: 5px;
+	border: 2px solid silver;
+	padding: 5px;
+	color: #afebf8;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+
+#wrapper #leftCol input :focus {
+border: 2px solid #f78080;
+}
+
+#wrapper #leftCol input#done :hover {
+border: 2px solid #f8d881;
+cursor: pointer;
+}	
+
+#wrapper #leftCol textarea {
+	width: 50%;
+	height: 150%;
+	margin-left: 15%;
+	float: left;
+	border-radius: 5px;
+	border: 2px solid silver;
+	padding: 5px;
+	color: #afebf8;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	resize: none;
+} 
+/* Стили для Footer*/
+
+footer {
+	width: 98%;
+	float:left;
+	padding: 1%;
+	background: #fafafa;
+	border-top: 2px solid silver;
+	margin-top: 10px;
 }
